@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="TD Synnex" id="id-e5aa96b971ec44afa2629a4b01eecd42" version="5.0.0">
+  <folder name="Strategy" id="id-782d2a4541434abbad40f250dda38c6f" type="strategy"/>
+  <folder name="Business" id="id-a289e8119ffc4ce59bd97003a5519644" type="business"/>
+  <folder name="Application" id="id-0f4ca4823d9a47cb9408853fc24024a1" type="application"/>
+  <folder name="Technology &amp; Physical" id="id-6ac8254d1c414810b89f8b6a9c91b427" type="technology"/>
+  <folder name="Motivation" id="id-90df822078fa49e4baa4f7a76bf1c2b1" type="motivation">
+    <element xsi:type="archimate:Stakeholder" name="Customer" id="id-d2133417d9e54810b5b4a301f7846a72"/>
+    <element xsi:type="archimate:Driver" name="Customer satisfaction" id="id-c4159868b50a402988810b637b31ec88"/>
+    <element xsi:type="archimate:Assessment" name="Assessment" id="id-bebf4970e28d47ec8492312fe410125b"/>
+    <element xsi:type="archimate:Assessment" name="Service is unflexible" id="id-745368b1756140ef9395ef29320faeb1"/>
+    <element xsi:type="archimate:Driver" name="Customer satisfaction (copy)" id="id-fb9bbe4e69564571abe3b2abf49b57b5"/>
+  </folder>
+  <folder name="Implementation &amp; Migration" id="id-27bc0ecb6a704a799beef5a66563c4d7" type="implementation_migration"/>
+  <folder name="Other" id="id-001475161e1f48589f207829ce98abf5" type="other"/>
+  <folder name="Relations" id="id-10ce64bca7204751bfc0659d2dd25e16" type="relations">
+    <element xsi:type="archimate:AssociationRelationship" id="id-64af9ad733574c94a552cc02c0589436" source="id-d2133417d9e54810b5b4a301f7846a72" target="id-c4159868b50a402988810b637b31ec88"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-a923971226384181af6fd5daddb54318" source="id-c4159868b50a402988810b637b31ec88" target="id-745368b1756140ef9395ef29320faeb1"/>
+  </folder>
+  <folder name="Views" id="id-e80b373ab0144dc59459664c2ad95d18" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Motivation View" id="id-32e7006dc34c4ebe95c81d1b4720d792">
+      <child xsi:type="archimate:DiagramObject" id="id-92174db5775c4e7593aea51a03038faf" archimateElement="id-d2133417d9e54810b5b4a301f7846a72">
+        <bounds x="330" y="174" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-5f643a968a9a497498716a17a61d5499" source="id-92174db5775c4e7593aea51a03038faf" target="id-c3aa2252206b49afab14fd7401d13415" archimateRelationship="id-64af9ad733574c94a552cc02c0589436"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-c3aa2252206b49afab14fd7401d13415" targetConnections="id-5f643a968a9a497498716a17a61d5499" archimateElement="id-c4159868b50a402988810b637b31ec88">
+        <bounds x="330" y="282" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-ac0434738cf447b5a1b3842d7a4a5f4d" source="id-c3aa2252206b49afab14fd7401d13415" target="id-5f7adee9708a43dcb79890c193feb8d8" archimateRelationship="id-a923971226384181af6fd5daddb54318"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-5f7adee9708a43dcb79890c193feb8d8" targetConnections="id-ac0434738cf447b5a1b3842d7a4a5f4d" archimateElement="id-745368b1756140ef9395ef29320faeb1">
+        <bounds x="330" y="384" width="120" height="55"/>
+      </child>
+    </element>
+  </folder>
+</archimate:model>

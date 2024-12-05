@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="TD Synnex" id="id-e5aa96b971ec44afa2629a4b01eecd42" version="5.0.0">
+  <folder name="Strategy" id="id-782d2a4541434abbad40f250dda38c6f" type="strategy"/>
+  <folder name="Business" id="id-a289e8119ffc4ce59bd97003a5519644" type="business"/>
+  <folder name="Application" id="id-0f4ca4823d9a47cb9408853fc24024a1" type="application"/>
+  <folder name="Technology &amp; Physical" id="id-6ac8254d1c414810b89f8b6a9c91b427" type="technology"/>
+  <folder name="Motivation" id="id-90df822078fa49e4baa4f7a76bf1c2b1" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="id-27bc0ecb6a704a799beef5a66563c4d7" type="implementation_migration"/>
+  <folder name="Other" id="id-001475161e1f48589f207829ce98abf5" type="other"/>
+  <folder name="Relations" id="id-10ce64bca7204751bfc0659d2dd25e16" type="relations"/>
+  <folder name="Views" id="id-e80b373ab0144dc59459664c2ad95d18" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Motivation View" id="id-32e7006dc34c4ebe95c81d1b4720d792"/>
+  </folder>
+</archimate:model>
